@@ -1,0 +1,146 @@
+body {
+  background-color: #FFF6EA;
+  font-family: "roboto", arial, sans-serif;
+  color: #1D3A5A;
+  box-sizing: border-box;
+}
+
+span {
+  color:#1D3A5A;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 112px;
+  margin-left: 112px;
+  margin-top: 20px;
+}
+
+
+.main-wrapper {
+  max-width: 1056px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+
+li {
+  display:inline-block;
+  margin: 10px;
+  font-weight: 100;
+  text-decoration-style: dotted;
+}
+
+.uxui {
+  max-width: 70%;
+  position: absolute;
+  right:-30px;
+  top: -40px;
+  z-index:1;
+  margin-top:39px;
+}
+
+.intro {
+  font-size: 36px;
+  margin-top: 150px;
+}
+
+.sidephoto {
+  width: 396px;
+  position: absolute;
+  right: 112px;
+  top: -60px;
+  z-index: -1;
+}
+
+.main-heading {
+  position: relative;
+}
+
+.cristina {
+  padding-top: 80px;
+  margin-top: 40px;
+  max-width: 550px;
+}
+
+.biographyme {
+  display: flex;
+  justify-content: center;
+}
+
+.biography {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 100;
+  padding-right: 64px;
+
+}
+
+.biography.two{
+  padding: 8px;
+}
+
+.colorcontainer {
+  margin-top: 60px;
+  width: 100%;
+  position: absolute;
+  height:768px;
+  background-color: #FDDEB9;
+  padding:0 auto;
+}
+
+.aboutme  {
+  margin-top: 200px;
+  color:#1D3A5A;
+  font-size:16px;
+}
+
+.Skills {
+  margin-top: 30px;
+  color:#1D3A5A;
+  font-size:16px;
+}
+
+.line {
+  background-color: #1D3A5A;
+  width: 264px;
+  height: 1px;
+  margin-left: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  position: relative;
+}
+
+
+.knowledge {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 100;
+  margin-left: 300px;
+  width: 264px;
+  display: inline-block;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+}
+
+.rrss{
+  font-size: 16px;
+  text-align: center;
+  width: 120px;
+  height:34px;
+  border: 1px solid #1D3A5A;
+}
